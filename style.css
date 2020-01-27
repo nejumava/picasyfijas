@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+    text-align: center;
+}
+
+input{
+    color: blue;
+    border: 1px solid blue;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+  }
+
+.content-table{
+    margin-top: 15px;
+}
+
+#titulo {
+    margin-top: 180px;
+}
+
+#ganaste{
+    background-color: rgb(0,0,0,0.7);
+    color: white;
+    font-size: 50px;
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    position: fixed;
+    top:0; 
+    left:0;
+}
+
+#jugar{
+    background-color: darkorange;
+    color: white;
+    font-size: 15px;
+    border-color: darkorange;
+    border-width: 0px;
+    height: 40px;
+    width: 200px;
+}
